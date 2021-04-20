@@ -104,7 +104,7 @@ if __name__ == '__main__':
     OUTPUT = Path('output')
     OUTPUT.mkdir(exist_ok=True)
 
-    data = load_data(vectorize_descriptions=True, max_features=1_00)
+    data = load_data(vectorize_descriptions=True, max_features=1_000)
     model = Model(data)
 
 
